@@ -1,0 +1,41 @@
+body {
+    background-color: #34ebcf;
+}
+.fishlist {
+    display: flex;
+    flex-flow: wrap;
+    border: 2px solid red;
+    padding: 2em;
+    margin: 0.5em;
+    justify-content:space-evenly;
+}
+
+.item {
+    flex-basis: 20%;
+    border: 2px solid orange;
+    margin: 0.5em;
+}
+.traitimg img {
+    max-width:300px;
+    max-height:200px;
+}
+.headerimg {
+    display: flex;
+    float: left;
+}
+.sidebar {
+    height: 100%;
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    color: #29627e;
+    column-span: all;
+    border: 2px pink solid;
+}#fishtank {}
+.fish {}
+.fish__name {}
+
+.mainbody {
+    display:flex;
+}
